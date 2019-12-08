@@ -1,0 +1,17 @@
+set -e
+# 获取脚本所在目录
+CMAKE_SOURCE_DIR=$(dirname $(greadlink -f $0))
+# 获取CMake源目录
+CMAKE_SOURCE_DIR=$(pwd)
+cd ${CMAKE_SOURCE_DIR}
+
+if [ ! -d ./build ]
+then
+   mkdir build
+fi
+
+# 指定解答
+cd build && cmake ..  && make $1 -j8 && cd Source
+
+# 运行
+./$1

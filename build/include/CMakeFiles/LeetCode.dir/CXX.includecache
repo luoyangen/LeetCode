@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zou/CLionProjects/LeetCode/include/btree.cc
+btree.h
+/Users/zou/CLionProjects/LeetCode/include/btree.h
+
+/Users/zou/CLionProjects/LeetCode/include/btree.h
+vector
+-
+iostream
+-
+initializer_list
+-
+queue
+-
+list
+-
+
+/Users/zou/CLionProjects/LeetCode/include/listnode.cc
+listnode.h
+/Users/zou/CLionProjects/LeetCode/include/listnode.h
+
+/Users/zou/CLionProjects/LeetCode/include/listnode.h
+iostream
+-
+vector
+-
+initializer_list
+-
+
