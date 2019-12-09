@@ -73,10 +73,12 @@ clean: include/clean
 
 # Recursive "all" directory target.
 Source/all: Source/CMakeFiles/Majority_Element.dir/all
-Source/all: Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/all
-Source/all: Source/CMakeFiles/Find_Peak_Element.dir/all
 Source/all: Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/all
+Source/all: Source/CMakeFiles/Find_Peak_Element.dir/all
+Source/all: Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/all
 Source/all: Source/CMakeFiles/Excel_Sheet_Column_Title.dir/all
+Source/all: Source/CMakeFiles/1_twosum.dir/all
+Source/all: Source/CMakeFiles/12_interger_to_roman.dir/all
 
 .PHONY : Source/all
 
@@ -87,10 +89,12 @@ Source/preinstall:
 
 # Recursive "clean" directory target.
 Source/clean: Source/CMakeFiles/Majority_Element.dir/clean
-Source/clean: Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/clean
-Source/clean: Source/CMakeFiles/Find_Peak_Element.dir/clean
 Source/clean: Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/clean
+Source/clean: Source/CMakeFiles/Find_Peak_Element.dir/clean
+Source/clean: Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/clean
 Source/clean: Source/CMakeFiles/Excel_Sheet_Column_Title.dir/clean
+Source/clean: Source/CMakeFiles/1_twosum.dir/clean
+Source/clean: Source/CMakeFiles/12_interger_to_roman.dir/clean
 
 .PHONY : Source/clean
 
@@ -101,7 +105,7 @@ Source/clean: Source/CMakeFiles/Excel_Sheet_Column_Title.dir/clean
 Source/CMakeFiles/Majority_Element.dir/all: include/CMakeFiles/LeetCode.dir/all
 	$(MAKE) -f Source/CMakeFiles/Majority_Element.dir/build.make Source/CMakeFiles/Majority_Element.dir/depend
 	$(MAKE) -f Source/CMakeFiles/Majority_Element.dir/build.make Source/CMakeFiles/Majority_Element.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zou/CLionProjects/LeetCode/build/CMakeFiles --progress-num=12,13 "Built target Majority_Element"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zou/CLionProjects/LeetCode/build/CMakeFiles --progress-num=16,17 "Built target Majority_Element"
 .PHONY : Source/CMakeFiles/Majority_Element.dir/all
 
 # Include target in all.
@@ -127,77 +131,13 @@ Source/CMakeFiles/Majority_Element.dir/clean:
 .PHONY : Source/CMakeFiles/Majority_Element.dir/clean
 
 #=============================================================================
-# Target rules for target Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir
-
-# All Build rule for target.
-Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/all: include/CMakeFiles/LeetCode.dir/all
-	$(MAKE) -f Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/build.make Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/depend
-	$(MAKE) -f Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/build.make Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zou/CLionProjects/LeetCode/build/CMakeFiles --progress-num=5,6 "Built target Fraction_to_Recurring_Decimal"
-.PHONY : Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/all
-
-# Include target in all.
-all: Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zou/CLionProjects/LeetCode/build/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zou/CLionProjects/LeetCode/build/CMakeFiles 0
-.PHONY : Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/rule
-
-# Convenience name for target.
-Fraction_to_Recurring_Decimal: Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/rule
-
-.PHONY : Fraction_to_Recurring_Decimal
-
-# clean rule for target.
-Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/clean:
-	$(MAKE) -f Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/build.make Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/clean
-.PHONY : Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/clean
-
-#=============================================================================
-# Target rules for target Source/CMakeFiles/Find_Peak_Element.dir
-
-# All Build rule for target.
-Source/CMakeFiles/Find_Peak_Element.dir/all: include/CMakeFiles/LeetCode.dir/all
-	$(MAKE) -f Source/CMakeFiles/Find_Peak_Element.dir/build.make Source/CMakeFiles/Find_Peak_Element.dir/depend
-	$(MAKE) -f Source/CMakeFiles/Find_Peak_Element.dir/build.make Source/CMakeFiles/Find_Peak_Element.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zou/CLionProjects/LeetCode/build/CMakeFiles --progress-num=3,4 "Built target Find_Peak_Element"
-.PHONY : Source/CMakeFiles/Find_Peak_Element.dir/all
-
-# Include target in all.
-all: Source/CMakeFiles/Find_Peak_Element.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-Source/CMakeFiles/Find_Peak_Element.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zou/CLionProjects/LeetCode/build/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 Source/CMakeFiles/Find_Peak_Element.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zou/CLionProjects/LeetCode/build/CMakeFiles 0
-.PHONY : Source/CMakeFiles/Find_Peak_Element.dir/rule
-
-# Convenience name for target.
-Find_Peak_Element: Source/CMakeFiles/Find_Peak_Element.dir/rule
-
-.PHONY : Find_Peak_Element
-
-# clean rule for target.
-Source/CMakeFiles/Find_Peak_Element.dir/clean:
-	$(MAKE) -f Source/CMakeFiles/Find_Peak_Element.dir/build.make Source/CMakeFiles/Find_Peak_Element.dir/clean
-.PHONY : Source/CMakeFiles/Find_Peak_Element.dir/clean
-
-#=============================================================================
 # Target rules for target Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir
 
 # All Build rule for target.
 Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/all: include/CMakeFiles/LeetCode.dir/all
 	$(MAKE) -f Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/build.make Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/depend
 	$(MAKE) -f Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/build.make Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zou/CLionProjects/LeetCode/build/CMakeFiles --progress-num=7,8 "Built target Intersection_of_Two_Linked_Lists"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zou/CLionProjects/LeetCode/build/CMakeFiles --progress-num=11,12 "Built target Intersection_of_Two_Linked_Lists"
 .PHONY : Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/all
 
 # Include target in all.
@@ -223,13 +163,77 @@ Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/clean:
 .PHONY : Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/clean
 
 #=============================================================================
+# Target rules for target Source/CMakeFiles/Find_Peak_Element.dir
+
+# All Build rule for target.
+Source/CMakeFiles/Find_Peak_Element.dir/all: include/CMakeFiles/LeetCode.dir/all
+	$(MAKE) -f Source/CMakeFiles/Find_Peak_Element.dir/build.make Source/CMakeFiles/Find_Peak_Element.dir/depend
+	$(MAKE) -f Source/CMakeFiles/Find_Peak_Element.dir/build.make Source/CMakeFiles/Find_Peak_Element.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zou/CLionProjects/LeetCode/build/CMakeFiles --progress-num=7,8 "Built target Find_Peak_Element"
+.PHONY : Source/CMakeFiles/Find_Peak_Element.dir/all
+
+# Include target in all.
+all: Source/CMakeFiles/Find_Peak_Element.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+Source/CMakeFiles/Find_Peak_Element.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zou/CLionProjects/LeetCode/build/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 Source/CMakeFiles/Find_Peak_Element.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zou/CLionProjects/LeetCode/build/CMakeFiles 0
+.PHONY : Source/CMakeFiles/Find_Peak_Element.dir/rule
+
+# Convenience name for target.
+Find_Peak_Element: Source/CMakeFiles/Find_Peak_Element.dir/rule
+
+.PHONY : Find_Peak_Element
+
+# clean rule for target.
+Source/CMakeFiles/Find_Peak_Element.dir/clean:
+	$(MAKE) -f Source/CMakeFiles/Find_Peak_Element.dir/build.make Source/CMakeFiles/Find_Peak_Element.dir/clean
+.PHONY : Source/CMakeFiles/Find_Peak_Element.dir/clean
+
+#=============================================================================
+# Target rules for target Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir
+
+# All Build rule for target.
+Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/all: include/CMakeFiles/LeetCode.dir/all
+	$(MAKE) -f Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/build.make Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/depend
+	$(MAKE) -f Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/build.make Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zou/CLionProjects/LeetCode/build/CMakeFiles --progress-num=9,10 "Built target Fraction_to_Recurring_Decimal"
+.PHONY : Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/all
+
+# Include target in all.
+all: Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zou/CLionProjects/LeetCode/build/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zou/CLionProjects/LeetCode/build/CMakeFiles 0
+.PHONY : Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/rule
+
+# Convenience name for target.
+Fraction_to_Recurring_Decimal: Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/rule
+
+.PHONY : Fraction_to_Recurring_Decimal
+
+# clean rule for target.
+Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/clean:
+	$(MAKE) -f Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/build.make Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/clean
+.PHONY : Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/clean
+
+#=============================================================================
 # Target rules for target Source/CMakeFiles/Excel_Sheet_Column_Title.dir
 
 # All Build rule for target.
 Source/CMakeFiles/Excel_Sheet_Column_Title.dir/all: include/CMakeFiles/LeetCode.dir/all
 	$(MAKE) -f Source/CMakeFiles/Excel_Sheet_Column_Title.dir/build.make Source/CMakeFiles/Excel_Sheet_Column_Title.dir/depend
 	$(MAKE) -f Source/CMakeFiles/Excel_Sheet_Column_Title.dir/build.make Source/CMakeFiles/Excel_Sheet_Column_Title.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zou/CLionProjects/LeetCode/build/CMakeFiles --progress-num=1,2 "Built target Excel_Sheet_Column_Title"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zou/CLionProjects/LeetCode/build/CMakeFiles --progress-num=5,6 "Built target Excel_Sheet_Column_Title"
 .PHONY : Source/CMakeFiles/Excel_Sheet_Column_Title.dir/all
 
 # Include target in all.
@@ -253,6 +257,70 @@ Excel_Sheet_Column_Title: Source/CMakeFiles/Excel_Sheet_Column_Title.dir/rule
 Source/CMakeFiles/Excel_Sheet_Column_Title.dir/clean:
 	$(MAKE) -f Source/CMakeFiles/Excel_Sheet_Column_Title.dir/build.make Source/CMakeFiles/Excel_Sheet_Column_Title.dir/clean
 .PHONY : Source/CMakeFiles/Excel_Sheet_Column_Title.dir/clean
+
+#=============================================================================
+# Target rules for target Source/CMakeFiles/1_twosum.dir
+
+# All Build rule for target.
+Source/CMakeFiles/1_twosum.dir/all: include/CMakeFiles/LeetCode.dir/all
+	$(MAKE) -f Source/CMakeFiles/1_twosum.dir/build.make Source/CMakeFiles/1_twosum.dir/depend
+	$(MAKE) -f Source/CMakeFiles/1_twosum.dir/build.make Source/CMakeFiles/1_twosum.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zou/CLionProjects/LeetCode/build/CMakeFiles --progress-num=3,4 "Built target 1_twosum"
+.PHONY : Source/CMakeFiles/1_twosum.dir/all
+
+# Include target in all.
+all: Source/CMakeFiles/1_twosum.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+Source/CMakeFiles/1_twosum.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zou/CLionProjects/LeetCode/build/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 Source/CMakeFiles/1_twosum.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zou/CLionProjects/LeetCode/build/CMakeFiles 0
+.PHONY : Source/CMakeFiles/1_twosum.dir/rule
+
+# Convenience name for target.
+1_twosum: Source/CMakeFiles/1_twosum.dir/rule
+
+.PHONY : 1_twosum
+
+# clean rule for target.
+Source/CMakeFiles/1_twosum.dir/clean:
+	$(MAKE) -f Source/CMakeFiles/1_twosum.dir/build.make Source/CMakeFiles/1_twosum.dir/clean
+.PHONY : Source/CMakeFiles/1_twosum.dir/clean
+
+#=============================================================================
+# Target rules for target Source/CMakeFiles/12_interger_to_roman.dir
+
+# All Build rule for target.
+Source/CMakeFiles/12_interger_to_roman.dir/all: include/CMakeFiles/LeetCode.dir/all
+	$(MAKE) -f Source/CMakeFiles/12_interger_to_roman.dir/build.make Source/CMakeFiles/12_interger_to_roman.dir/depend
+	$(MAKE) -f Source/CMakeFiles/12_interger_to_roman.dir/build.make Source/CMakeFiles/12_interger_to_roman.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zou/CLionProjects/LeetCode/build/CMakeFiles --progress-num=1,2 "Built target 12_interger_to_roman"
+.PHONY : Source/CMakeFiles/12_interger_to_roman.dir/all
+
+# Include target in all.
+all: Source/CMakeFiles/12_interger_to_roman.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+Source/CMakeFiles/12_interger_to_roman.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zou/CLionProjects/LeetCode/build/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 Source/CMakeFiles/12_interger_to_roman.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zou/CLionProjects/LeetCode/build/CMakeFiles 0
+.PHONY : Source/CMakeFiles/12_interger_to_roman.dir/rule
+
+# Convenience name for target.
+12_interger_to_roman: Source/CMakeFiles/12_interger_to_roman.dir/rule
+
+.PHONY : 12_interger_to_roman
+
+# clean rule for target.
+Source/CMakeFiles/12_interger_to_roman.dir/clean:
+	$(MAKE) -f Source/CMakeFiles/12_interger_to_roman.dir/build.make Source/CMakeFiles/12_interger_to_roman.dir/clean
+.PHONY : Source/CMakeFiles/12_interger_to_roman.dir/clean
 
 #=============================================================================
 # Directory level rules for directory include
@@ -279,7 +347,7 @@ include/clean: include/CMakeFiles/LeetCode.dir/clean
 include/CMakeFiles/LeetCode.dir/all:
 	$(MAKE) -f include/CMakeFiles/LeetCode.dir/build.make include/CMakeFiles/LeetCode.dir/depend
 	$(MAKE) -f include/CMakeFiles/LeetCode.dir/build.make include/CMakeFiles/LeetCode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zou/CLionProjects/LeetCode/build/CMakeFiles --progress-num=9,10,11 "Built target LeetCode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zou/CLionProjects/LeetCode/build/CMakeFiles --progress-num=13,14,15 "Built target LeetCode"
 .PHONY : include/CMakeFiles/LeetCode.dir/all
 
 # Include target in all.

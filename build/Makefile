@@ -124,17 +124,17 @@ Majority_Element/fast:
 .PHONY : Majority_Element/fast
 
 #=============================================================================
-# Target rules for targets named Fraction_to_Recurring_Decimal
+# Target rules for targets named Intersection_of_Two_Linked_Lists
 
 # Build rule for target.
-Fraction_to_Recurring_Decimal: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Fraction_to_Recurring_Decimal
-.PHONY : Fraction_to_Recurring_Decimal
+Intersection_of_Two_Linked_Lists: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Intersection_of_Two_Linked_Lists
+.PHONY : Intersection_of_Two_Linked_Lists
 
 # fast build rule for target.
-Fraction_to_Recurring_Decimal/fast:
-	$(MAKE) -f Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/build.make Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/build
-.PHONY : Fraction_to_Recurring_Decimal/fast
+Intersection_of_Two_Linked_Lists/fast:
+	$(MAKE) -f Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/build.make Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/build
+.PHONY : Intersection_of_Two_Linked_Lists/fast
 
 #=============================================================================
 # Target rules for targets named Find_Peak_Element
@@ -150,17 +150,17 @@ Find_Peak_Element/fast:
 .PHONY : Find_Peak_Element/fast
 
 #=============================================================================
-# Target rules for targets named Intersection_of_Two_Linked_Lists
+# Target rules for targets named Fraction_to_Recurring_Decimal
 
 # Build rule for target.
-Intersection_of_Two_Linked_Lists: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Intersection_of_Two_Linked_Lists
-.PHONY : Intersection_of_Two_Linked_Lists
+Fraction_to_Recurring_Decimal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Fraction_to_Recurring_Decimal
+.PHONY : Fraction_to_Recurring_Decimal
 
 # fast build rule for target.
-Intersection_of_Two_Linked_Lists/fast:
-	$(MAKE) -f Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/build.make Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/build
-.PHONY : Intersection_of_Two_Linked_Lists/fast
+Fraction_to_Recurring_Decimal/fast:
+	$(MAKE) -f Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/build.make Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/build
+.PHONY : Fraction_to_Recurring_Decimal/fast
 
 #=============================================================================
 # Target rules for targets named Excel_Sheet_Column_Title
@@ -174,6 +174,32 @@ Excel_Sheet_Column_Title: cmake_check_build_system
 Excel_Sheet_Column_Title/fast:
 	$(MAKE) -f Source/CMakeFiles/Excel_Sheet_Column_Title.dir/build.make Source/CMakeFiles/Excel_Sheet_Column_Title.dir/build
 .PHONY : Excel_Sheet_Column_Title/fast
+
+#=============================================================================
+# Target rules for targets named 1_twosum
+
+# Build rule for target.
+1_twosum: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1_twosum
+.PHONY : 1_twosum
+
+# fast build rule for target.
+1_twosum/fast:
+	$(MAKE) -f Source/CMakeFiles/1_twosum.dir/build.make Source/CMakeFiles/1_twosum.dir/build
+.PHONY : 1_twosum/fast
+
+#=============================================================================
+# Target rules for targets named 12_interger_to_roman
+
+# Build rule for target.
+12_interger_to_roman: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 12_interger_to_roman
+.PHONY : 12_interger_to_roman
+
+# fast build rule for target.
+12_interger_to_roman/fast:
+	$(MAKE) -f Source/CMakeFiles/12_interger_to_roman.dir/build.make Source/CMakeFiles/12_interger_to_roman.dir/build
+.PHONY : 12_interger_to_roman/fast
 
 #=============================================================================
 # Target rules for targets named LeetCode
@@ -197,10 +223,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Majority_Element"
-	@echo "... Fraction_to_Recurring_Decimal"
-	@echo "... Find_Peak_Element"
 	@echo "... Intersection_of_Two_Linked_Lists"
+	@echo "... Find_Peak_Element"
+	@echo "... Fraction_to_Recurring_Decimal"
 	@echo "... Excel_Sheet_Column_Title"
+	@echo "... 1_twosum"
+	@echo "... 12_interger_to_roman"
 	@echo "... LeetCode"
 .PHONY : help
 

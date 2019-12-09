@@ -126,19 +126,19 @@ Majority_Element/fast:
 .PHONY : Majority_Element/fast
 
 # Convenience name for target.
-Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/rule:
-	cd /Users/zou/CLionProjects/LeetCode/build && $(MAKE) -f CMakeFiles/Makefile2 Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/rule
-.PHONY : Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/rule
+Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/rule:
+	cd /Users/zou/CLionProjects/LeetCode/build && $(MAKE) -f CMakeFiles/Makefile2 Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/rule
+.PHONY : Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/rule
 
 # Convenience name for target.
-Fraction_to_Recurring_Decimal: Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/rule
+Intersection_of_Two_Linked_Lists: Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/rule
 
-.PHONY : Fraction_to_Recurring_Decimal
+.PHONY : Intersection_of_Two_Linked_Lists
 
 # fast build rule for target.
-Fraction_to_Recurring_Decimal/fast:
-	cd /Users/zou/CLionProjects/LeetCode/build && $(MAKE) -f Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/build.make Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/build
-.PHONY : Fraction_to_Recurring_Decimal/fast
+Intersection_of_Two_Linked_Lists/fast:
+	cd /Users/zou/CLionProjects/LeetCode/build && $(MAKE) -f Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/build.make Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/build
+.PHONY : Intersection_of_Two_Linked_Lists/fast
 
 # Convenience name for target.
 Source/CMakeFiles/Find_Peak_Element.dir/rule:
@@ -156,19 +156,19 @@ Find_Peak_Element/fast:
 .PHONY : Find_Peak_Element/fast
 
 # Convenience name for target.
-Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/rule:
-	cd /Users/zou/CLionProjects/LeetCode/build && $(MAKE) -f CMakeFiles/Makefile2 Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/rule
-.PHONY : Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/rule
+Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/rule:
+	cd /Users/zou/CLionProjects/LeetCode/build && $(MAKE) -f CMakeFiles/Makefile2 Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/rule
+.PHONY : Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/rule
 
 # Convenience name for target.
-Intersection_of_Two_Linked_Lists: Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/rule
+Fraction_to_Recurring_Decimal: Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/rule
 
-.PHONY : Intersection_of_Two_Linked_Lists
+.PHONY : Fraction_to_Recurring_Decimal
 
 # fast build rule for target.
-Intersection_of_Two_Linked_Lists/fast:
-	cd /Users/zou/CLionProjects/LeetCode/build && $(MAKE) -f Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/build.make Source/CMakeFiles/Intersection_of_Two_Linked_Lists.dir/build
-.PHONY : Intersection_of_Two_Linked_Lists/fast
+Fraction_to_Recurring_Decimal/fast:
+	cd /Users/zou/CLionProjects/LeetCode/build && $(MAKE) -f Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/build.make Source/CMakeFiles/Fraction_to_Recurring_Decimal.dir/build
+.PHONY : Fraction_to_Recurring_Decimal/fast
 
 # Convenience name for target.
 Source/CMakeFiles/Excel_Sheet_Column_Title.dir/rule:
@@ -184,6 +184,90 @@ Excel_Sheet_Column_Title: Source/CMakeFiles/Excel_Sheet_Column_Title.dir/rule
 Excel_Sheet_Column_Title/fast:
 	cd /Users/zou/CLionProjects/LeetCode/build && $(MAKE) -f Source/CMakeFiles/Excel_Sheet_Column_Title.dir/build.make Source/CMakeFiles/Excel_Sheet_Column_Title.dir/build
 .PHONY : Excel_Sheet_Column_Title/fast
+
+# Convenience name for target.
+Source/CMakeFiles/1_twosum.dir/rule:
+	cd /Users/zou/CLionProjects/LeetCode/build && $(MAKE) -f CMakeFiles/Makefile2 Source/CMakeFiles/1_twosum.dir/rule
+.PHONY : Source/CMakeFiles/1_twosum.dir/rule
+
+# Convenience name for target.
+1_twosum: Source/CMakeFiles/1_twosum.dir/rule
+
+.PHONY : 1_twosum
+
+# fast build rule for target.
+1_twosum/fast:
+	cd /Users/zou/CLionProjects/LeetCode/build && $(MAKE) -f Source/CMakeFiles/1_twosum.dir/build.make Source/CMakeFiles/1_twosum.dir/build
+.PHONY : 1_twosum/fast
+
+# Convenience name for target.
+Source/CMakeFiles/12_interger_to_roman.dir/rule:
+	cd /Users/zou/CLionProjects/LeetCode/build && $(MAKE) -f CMakeFiles/Makefile2 Source/CMakeFiles/12_interger_to_roman.dir/rule
+.PHONY : Source/CMakeFiles/12_interger_to_roman.dir/rule
+
+# Convenience name for target.
+12_interger_to_roman: Source/CMakeFiles/12_interger_to_roman.dir/rule
+
+.PHONY : 12_interger_to_roman
+
+# fast build rule for target.
+12_interger_to_roman/fast:
+	cd /Users/zou/CLionProjects/LeetCode/build && $(MAKE) -f Source/CMakeFiles/12_interger_to_roman.dir/build.make Source/CMakeFiles/12_interger_to_roman.dir/build
+.PHONY : 12_interger_to_roman/fast
+
+12_interger_to_roman.o: 12_interger_to_roman.cpp.o
+
+.PHONY : 12_interger_to_roman.o
+
+# target to build an object file
+12_interger_to_roman.cpp.o:
+	cd /Users/zou/CLionProjects/LeetCode/build && $(MAKE) -f Source/CMakeFiles/12_interger_to_roman.dir/build.make Source/CMakeFiles/12_interger_to_roman.dir/12_interger_to_roman.cpp.o
+.PHONY : 12_interger_to_roman.cpp.o
+
+12_interger_to_roman.i: 12_interger_to_roman.cpp.i
+
+.PHONY : 12_interger_to_roman.i
+
+# target to preprocess a source file
+12_interger_to_roman.cpp.i:
+	cd /Users/zou/CLionProjects/LeetCode/build && $(MAKE) -f Source/CMakeFiles/12_interger_to_roman.dir/build.make Source/CMakeFiles/12_interger_to_roman.dir/12_interger_to_roman.cpp.i
+.PHONY : 12_interger_to_roman.cpp.i
+
+12_interger_to_roman.s: 12_interger_to_roman.cpp.s
+
+.PHONY : 12_interger_to_roman.s
+
+# target to generate assembly for a file
+12_interger_to_roman.cpp.s:
+	cd /Users/zou/CLionProjects/LeetCode/build && $(MAKE) -f Source/CMakeFiles/12_interger_to_roman.dir/build.make Source/CMakeFiles/12_interger_to_roman.dir/12_interger_to_roman.cpp.s
+.PHONY : 12_interger_to_roman.cpp.s
+
+1_twosum.o: 1_twosum.cpp.o
+
+.PHONY : 1_twosum.o
+
+# target to build an object file
+1_twosum.cpp.o:
+	cd /Users/zou/CLionProjects/LeetCode/build && $(MAKE) -f Source/CMakeFiles/1_twosum.dir/build.make Source/CMakeFiles/1_twosum.dir/1_twosum.cpp.o
+.PHONY : 1_twosum.cpp.o
+
+1_twosum.i: 1_twosum.cpp.i
+
+.PHONY : 1_twosum.i
+
+# target to preprocess a source file
+1_twosum.cpp.i:
+	cd /Users/zou/CLionProjects/LeetCode/build && $(MAKE) -f Source/CMakeFiles/1_twosum.dir/build.make Source/CMakeFiles/1_twosum.dir/1_twosum.cpp.i
+.PHONY : 1_twosum.cpp.i
+
+1_twosum.s: 1_twosum.cpp.s
+
+.PHONY : 1_twosum.s
+
+# target to generate assembly for a file
+1_twosum.cpp.s:
+	cd /Users/zou/CLionProjects/LeetCode/build && $(MAKE) -f Source/CMakeFiles/1_twosum.dir/build.make Source/CMakeFiles/1_twosum.dir/1_twosum.cpp.s
+.PHONY : 1_twosum.cpp.s
 
 Excel_Sheet_Column_Title.o: Excel_Sheet_Column_Title.cpp.o
 
@@ -329,10 +413,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Majority_Element"
-	@echo "... Fraction_to_Recurring_Decimal"
-	@echo "... Find_Peak_Element"
 	@echo "... Intersection_of_Two_Linked_Lists"
+	@echo "... Find_Peak_Element"
+	@echo "... Fraction_to_Recurring_Decimal"
 	@echo "... Excel_Sheet_Column_Title"
+	@echo "... 1_twosum"
+	@echo "... 12_interger_to_roman"
+	@echo "... 12_interger_to_roman.o"
+	@echo "... 12_interger_to_roman.i"
+	@echo "... 12_interger_to_roman.s"
+	@echo "... 1_twosum.o"
+	@echo "... 1_twosum.i"
+	@echo "... 1_twosum.s"
 	@echo "... Excel_Sheet_Column_Title.o"
 	@echo "... Excel_Sheet_Column_Title.i"
 	@echo "... Excel_Sheet_Column_Title.s"
